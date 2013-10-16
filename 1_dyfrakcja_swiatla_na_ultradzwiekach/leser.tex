@@ -54,7 +54,7 @@
    	\hline
     Wydział Fizyki & Grupa: K-1 \newline Rok akademicki: 2013/2014 &    Nr ćwiczenia: 7 \\
    	\hline
-   	\multicolumn{2}{|l|}{Prowadzący: Jan Grabski i Piotr Panecki} & \multicolumn{1}{|l|}{Ocena końcowa:}\\
+   	\multicolumn{2}{|l|}{Prowadzący: Piotr Panecki} & \multicolumn{1}{|l|}{Ocena końcowa:}\\
     \hline
     \end{tabular}
 \end{center}
@@ -84,10 +84,22 @@ Celem ćwiczenia było zbadanie zjawisk jakie towarzyszą przejściu fali świet
 %  \end{center}
 %\end{figure}
 
+Eksperyent polegał na zbadaniu zjawisk jakim ulega fala świetlna przechodząc przez materiał o zmiennym współczynniku załamania. Zmienny współczynnik załanamia został wywołany poprzez wykorzytanie zjawiska elektrostrykcji do wytworzenia stojącej fali ultradźwiękowej w wodzie, co można opisać następująco: 
+
+$$ n(y,t) = n_0+\Delta n \cdot \cos (\Omega\cdot  t-K\cdot y) $$ 
+$$ \Delta n = \Theta \cdot \sqrt{\frac{P_a}{\Pi \cdot R^2}}   $$
+gdzie: \newline
+$K$ - wektor falowy równoległy do osi $y$, 
+$\Omega$ - częstotliwość kołowa,  
+$\Theta$ - pewna stała zależna od parametrów materiałowych, 
+$P_a$ - moc fali ultradźwiękowej w cieczy,
+$R$ - promień przetwoenika,
+$n_0$ - współczynnik załamania cieczy bez zaburzeń.
+
 W eksperymencie mogliśmy mieć do czynienia z dwoma rodzajami dyfrakcji:
 \begin{itemize}
 \item dyfrakcją Ramana-Natha
-\item dyfrakcją braggowską
+\item dyfrakcją Bragga
 \end{itemize}
 
 Rodzaj dyfrakcji można określić na podstawie parametru Kleina-Cooke'a, który wyraża się następującym wzorem
@@ -105,9 +117,34 @@ K = \frac{2 \pi}{ \lambda }; \\ k = \frac{2 \pi}{\lambda}
 
 Jeżeli \( Q << 1\) to mamy do czynienia z dyfrakcją Ramana-Nata
 
-Jeżeli \( Q >> 1 \) to mamy do czynienia z dyfrakcją braggowską
+Jeżeli \( Q >> 1 \) to mamy do czynienia z dyfrakcją Bragga
+
+W eksperymenicie wszystkie wartości $Q$ były dużo mniejsze od 1, więc mieliśmy do czynienia z dyfrakcją Ramana-Natha, która polega na tym, że fala przechodząc przez ośrodek o periodyczznych zmianach współczynnika załamania zaburza swój front falowy, który następnie ulega dyfrakcji podobne jak na siatce dyfrakcyjnej. Stosujemy więc wzór: 
+$$ \frac{m \cdot \lambda}{\Lambda}=\sin (\alpha) $$
+gdzie: \\
+$\lambda$ - długość fali lasera, 
+$m$ - numer prążka liczony od środkowego prążka z numerem 0, 
+$ \alpha $ - kąt zakreślany między prażkiem z numerem 0 i prążkiem m-tym,
+% NO TO MOŻE BYĆ ŹLE....  
+$ \Lambda $ - stała siatki dyfrakcyjnej. W tym przypadku połówka długości fali ultradźwiękowej. \\
+
+Długość fali ultradźwiękowej mogliśmy wyznaczyć na kilka sposobów:
+\begin{enumerate}
+  \item Poprzez odczytanie z Częstotliwościomierza częstotliwości i obliczenie z wzoru: $\Lambda=\frac{v}{f}$, korzystając z tablicowej watrości prędkości dźwięku w wodzie, jaką znalieźliśmy na stronie podanej w żrółach na końcu sprawozdania. 
+  \item Poprzez manewry długością wnęki rezonansowej i ręczne odczytywanie kolejnych maksimów jako kolejnych połówek długości fali ultradźwiękowej.
+  \item Poprzez zastosowanie wzoru dla siatki dyfrakcyjnej $\Lambda=\frac{m \cdot \lambda}{\sin (\alpha)}$
+\end{enumerate}
+
+W swojej pracy korzystaliśmy jeszcze z zależności, mówijącej o tym, ze prędkość fali wynosi: 
+
+$$v = \frac{\omega}{k} = \frac{2\cdot \pi \cdot f }{\frac{2\cdot \pi}{\Lambda} }= \Lambda \cdot f $$
+
+
+
+
 
 \section{Użyty sprzęt i układy pomiarowe}
+
 
 % tutaj trzeba wrzucić schemat układu pomiarowego i opis użytych przyrządów
 % a także szczegóły techniczne, specyficzne dla naszego setupu eksperymentu
@@ -115,54 +152,166 @@ Jeżeli \( Q >> 1 \) to mamy do czynienia z dyfrakcją braggowską
 Do przeprowadzenia eksperymenty używaliśmy: 
 
 \begin{enumerate}
-  \item Lasera czerwonego ( 632.8 nm ) 
+  \item Lasera czerwonego ( 632.8 nm , 1mW ) 
   \item Zwierciadeł i soczewek do doprowadzenia wiązki i wydłużenia drogi optycznej światła
-  \item 
-  
+  \item Generatora G-35
+  \item Częstotliwościomierza PFL-30
+  \item Suwniarki, metrówki i linijki  
+  \item Śruby mikrometrycznej wraz z rezonatorem fali ultradźwiękowej
 \end{enumerate}
+
+Wiązka lasra okazała się zbyt "cienka" do przeprowadzenia eksperymentu, więc ustawiliśmy soczewki, tak aby rozszerzyły jej średnicę. \\
+Ze względu na ograniczoną powierzchnię laboratorium fizyki 2, do wydłurzenia drogi lasera po przejściu przez rezonator użyliśmy zwierciadeł wydłurzając drogę wiązki do $732cm$. 
+
+Schemat układu pomiarowego przedstawiony jest poniżej: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 15cm]{Rysunek.png}
+    \caption{Układ pomiarowy}
+  \end{center}
+\end{figure}
 
 
 
 \section{Opracowanie wyników}
 
-
-Co trzeba opracować?
-\begin{itemize}
-\item wyznaczyć długości fali na podstawie wzoru dla siatki dyfrakcyjnej i jednocześnie wyznaczyć tę wartość za pomocą zmiany długości wnęki rezonansowej dla fali ultradźwiękowych.
-
-\item Jak dokładnie to wyszło? Czy wyniki z obu rodzajów pomiarów, są podobne, etc.
-
-\item znaleźć krzywą dyspersji (prędkość fazowa fali ultradźwiękowej w zależności od częstotliwości (porównać z tablicami)
-
-\item parametr Kleina-Cooke'a - jaki rodzaj dyfrakcji występował w eksperymencie
-\end{itemize}
-
 Niepewności jakie przyjęliśmy to:
 \begin{enumerate}
-  \item Niepewność pomiaru drogi optycznej: 
-  \item Niepewność pomiaru śrubą mikrometryczną:
-  \item Niepewność pomiaru suwmiarką: 
+  \item Niepewność pomiaru drogi optycznej: 5cm 
+  \item Niepewność pomiaru śrubą mikrometryczną: 0.2 mm 
+  \item Niepewność pomiaru suwmiarką: 0.1 cm 
   
 \end{enumerate}
 
-Uzasadniamy je tym, że przy każdym mierzonym parametrze do niepewności urządzenia dochodził błąd związany z dokładmością wyznaczenia parametru, jak na przykład wyśrodkowania suwmiarki na konkretne mierzone punkty. Wyśrodkowania śruby na odpowiednie maximum (powstanie fali stojącej w wodzie). 
+Uzasadniamy je tym, że przy każdym mierzonym parametrze do niepewności urządzenia dochodził błąd związany z dokładmością wyznaczenia parametru, jak na przykład wyśrodkowania suwmiarki na konkretne mierzone punkty. Wyśrodkowania śruby na odpowiednie maximam (powstanie fali stojącej w wodzie). Złorzoność drogi optycznej dla promieni lasera. 
+
+Aby zmiejszyć niedokładność pomiarów zliczaliśmy wzmiocnienia fali świetlnej dla maksymalnej ilości prążków, dzięki czemu pomiar suwniarką był dokładniejszy. Niestety pomiar śrubą mikrometryczną okazał się bardzo wadliwy. Przy pomiarze tym prawdopodobnie kolkakrotnie popełnialiśmy błędy związanie z wyznaczeniem maskimum. Wyniki przedstawiamy w poniższej tabelce: 
 
 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{tab1.png}
+    \caption{Tabelka z wynikami pomiarów}
+  \end{center}
+\end{figure}
+
+Natomiast wyniki pomiarów śrubą mikrometryczną zamieszczamy w poniższej tabeli: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{tab2.png}
+    \caption{Tabelka z odległościami na śrubie mikrometryczenj. Wszyskie wielkości podano w [mm]}
+  \end{center}
+\end{figure}
+
+Jak widać na powyższej tabelce pomiar śrubą mikrometryczną okazał się bardzo niedokładny. W każdym pomiarze okazało się że jedna wyznaczona połówka fali odbiega znacząco od wyników reszty. (zaznaczono ciemniejszym kolorem owe pola) Dla tego policzyliśmy dla tych wyników nie tylko średnią, a równierz średnią selektywną, odrzucając owe wyniki jako błędy grube w pomairze. Ponadto dla najwyższej częstotliwości fali ultradźwiękowej zmiany w obrazie periodycznym w obrazie były tak trudne do obserwacji że zaniechaliśmy tej czynności, ale jest to stosowny argument, świadczący o tym, że nasz układ pomiarowy bardzo ograniczał dokładny pomiar śrubą mikrometryczną. 
+
+Następnie przyjmując tablicową wartość prędkości dźwieku w wodzie i na podstawie odczytu częstotliwości wyznaczyliśmy długości fali ultradźwiękowej. Wyniki przedstawia tabela: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 5cm]{tab3.png}
+    \caption{Wielkości liczone na podstawie danych tablicowych}
+  \end{center}
+\end{figure}
+
+Wyznaczone powyżej wielkości służyły nam jedynie orientacyjnie do porównywania wyników. 
+
+Kolejnym sposobem wyliczenia było podstawienie do wzoru na dyfrakcję na siatce. Wyniki przedstawiamy w tabelce: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 5cm]{tab4.png}
+    \caption{Długość fali liczona za pomocą wzoru na dydrakcję na siatce}
+  \end{center}
+\end{figure}
+
+Ową zależność przedstawia równierz wykres: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 12cm]{wykres1.png}
+    \caption{Zależność długości fali od częstotliwości}
+  \end{center}
+\end{figure}
+
+Widać w nich sporą zgodność z wynikami liczonymi na podstawie danych tablicowych. Żeby jednak porównać je ilościowo należy wcześniej wyznaczyć niepewności wyliczonych danych. 
+
+Niepewność z pomiarów śrubą mikrometryczną wyliczono dodając kwadraty poszczególnych błędów pod pierwiastkiem natomiast długości fali liczonej z wzoru na dyfrakcję na siatce, z różniczki zupełnej. Niepewności długości fali wyznaczanej z danych tablicowych zestawiono dla porównania jak również średnią selektywną. Owe wyniki przedstawia tabela: 
+
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 17cm]{tab5.png}
+    \caption{Porównanie długości fal wyznacznych różnymi metodami}
+  \end{center}
+\end{figure}
+
+Aby łatwiej porównać wyniki przez nas otrzymane przedstawiliśmy je na wykresie. Niepewności wyliczone dla długości fali wyliczone za pomocą wzoru na siatkę dyfrakcyjną przy zastosowanej skali są niewidoczne. 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 12cm]{wykres2.png}
+    \caption{Porównanie długości fal - wykres}
+  \end{center}
+\end{figure}
+
+Na podstawie powyższych danych mogliśmy rozpatrywać rodzaj dyfrakcji z jaką mieliśmy do czynienia i jak wspominalismy wcześniej okazało się że była to dyfrakcja Ramana-Natha. Wyliczone parametry  przedstawia poniższa tabela: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 3cm]{tab6.png}
+    \caption{Parametry Kleina-Cooke'a}
+  \end{center}
+\end{figure}
+
+Kolejną rzeczą jakiej podjęliśmy się to znalezienie zależności prędkości fali ultradźwiękowej od częstotliwości. Wyliczone prędkości wraz z ich niepewnosciami są zamieszczone w poniższej tabeli: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{tab7.png}
+    \caption{Prędkości fali ultradźwiekowej}
+  \end{center}
+\end{figure}
+
+Na podstawie obliczonych watrości wykreśliliśmy wykres: 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{wykres3.png}
+    \caption{Zależność prędkości od częstotliwości}
+  \end{center}
+\end{figure}
+
+
+%niestety... życie naz znów zawiodło... 
+
+Na podstawie wyznaczonych danych nie zauważyliśmy żadnej charakterystycznej krzywej. Niestety nie dotarliśmy do stosownej literatury, aby porównać ten wynik. Jedyna krzywa, która pomija tylko 2 punkty to prosta przedstawiona poniżej.
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 7cm]{wykres4.png}
+    \caption{Prosta dopasowana do punktów}
+  \end{center}
+\end{figure}
+
+Nie jest to jednak optymalna krzywa a punkty odbiegają od niej dość znacznie, jednak uznaliśmy że warto zauważyć tą zależność. 
 
 \section{Wnioski}
 
-Nie ma idealnych wyników ani idealnych teorii.
+W doświadczeniu uzyskaliśmy dość dobre wyniki pomiaru długości fali liczone dla siatki dyfrakcyjnej. Bardzo przypominają one wartości obliczone na podstawie jednej, tablicowej wartosci prędkości dźwięku w wodzie. Wykres Długości fali w zależności od częstotliwości wygląda także prawidłowo. Wartości prędkości fali dzwiękowej jakie obliczyliśmy są rzędu wielkości tablicowych, co również potwierdza, że pomiar był w porządku. 
 
-\begin{itemize}
-  \item ważne 1
-  \item ważne 2
-  
-\end{itemize}
+Parametr Kleina-Cooke'a określił, że w doświadczeniu mieliśmy do czynienia z dyfrakcją Ramana-Natha. 
 
-\section {Literatura}
+Krzywa dyspersji fali dźwiękowej nie wyszła, co może sugerować że dźwięk nie podlega kwalifikuje się do tego zjawiska, jednak błędy jakie popełniliśmy przy pomiarze mogłu znacząco wpłynąć na wyniki. 
+
+
+
+\section {Źródła dodatkowe}
   
  \begin{itemize}
-   \item prędkość dźwięku w wodzie: 1482 $m/s$ \\ http://fatcat.ftj.agh.edu.pl/~kaprzyk/Fizyka/fizyka/node102.html
+   \item prędkość dźwięku w wodzie: $ 1482 m/s$ \\ http://fatcat.ftj.agh.edu.pl/~kaprzyk/Fizyka/fizyka/node102.html
    
  \end{itemize}
 
