@@ -9,8 +9,8 @@ Sprawy zgłoszone do poprawy:
 TODO:
 dopasowanie prostej do wykresu [done]
 obliczenie chi kwadrat w stosunku do wyznaczonej prostej [done]
-opracowanie wyników z dopasowania i sprawdzania hipotezy
-przyjrzeć się niepewnościom 
+opracowanie wyników z dopasowania i sprawdzania hipotezy [done]
+przyjrzeć się niepewnościom [in test] wyglądają ok, ale jeszcze będzie trzeba to w latexu podmienić
 uporządkowac arkusz [done]
 wyrzucić humanistyczne stwierdzenia ze sprawozdania [done]
 
