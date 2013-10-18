@@ -1,0 +1,16 @@
+Sprawy zgłoszone do poprawy:
+
+1. mniej tekstu 
+2. idę albo nie idę, wykasować język atrystyczny - albo coś jest albo nie jest. 
+3. znaki zapytania przy niepewnościach.
+4. wykres tylko jeden i pod nim x^2 policzona być ma. 
+5. dopasowana prosta i napisanie że na tak małym zakresie fal spodziwam się  linii prostej - wyliczyć ją przez MNK i wywalić niepasujący punkt. 
+
+TODO:
+dopasowanie prostej do wykresu [done]
+obliczenie chi kwadrat w stosunku do wyznaczonej prostej [done]
+opracowanie wyników z dopasowania i sprawdzania hipotezy
+przyjrzeć się niepewnościom 
+uporządkowac arkusz [done]
+wyrzucić humanistyczne stwierdzenia ze sprawozdania [done]
+
