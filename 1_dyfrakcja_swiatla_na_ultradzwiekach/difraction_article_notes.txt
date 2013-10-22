@@ -1,0 +1,6 @@
+they aren't directly talking about inluention velocity by frequency
+
++-0.3 for 2-8MHz
+
+and this fits our case pretty well and concludes whole doubts,
+we should estimate temperature to have good value of reference velocity
