@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}
 \usepackage{float}
 \usepackage{array}
-
+\usepackage{hyperref}
 %\usepackage{mathtools}
 
 
@@ -104,14 +104,27 @@ Do przeprowadzenia eksperymenty używaliśmy:
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics[width = 15cm]{beautiful_plot.png}
+    \includegraphics[width = 15cm]{prettier_plot.png}
     \caption{zależności jakie wyszły}
   \end{center}
 \end{figure}
 
 \section{Wnioski}
 
-Hipoteza potwierdzona, ta dizyka jest szalona! 
+Dopasowaliśmy krzywe wykładnicze metodą najmniejszych kwadratów, używając do tego biblioteki do obliczeń naukowych 
+
+\href{'http://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html'}{scipy.optimize}
+
+niestety wyliczone przez nas $\chi^2$ zredukowane miało wartość ok. 3000. Analizując nasze pomiary i wyniki, doszliśmy do wniosku, że tak wysoką wartość $\chi^2$ uzyskaliśmy przez zaniżenie niepewności pomiarowych w naszym doświadczeniu.
+
+
+$$
+\chi^2 = \Sigma_{i=1}^n ( \frac{y_i - f(x_i)}{\sigma_i} )
+$$
+
+
+
+Hipoteza potwierdzona, ta fizyka jest szalona! 
 
 \section {Źródła dodatkowe}
   
