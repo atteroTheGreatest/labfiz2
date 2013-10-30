@@ -118,7 +118,12 @@ Do przeprowadzenia eksperymenty używaliśmy:
 
 \section{Opracowanie wyników}
 
-
+$$
+E = E_0cos(wt-k_{II}y)e^{-\gamma x} \\
+$$
+$$
+\gamma = n_2k_0
+$$
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 15cm]{prettier_plot.png}
@@ -126,16 +131,45 @@ Do przeprowadzenia eksperymenty używaliśmy:
   \end{center}
 \end{figure}
 
-\section{Wnioski}
-
 Dopasowaliśmy krzywe wykładnicze metodą najmniejszych kwadratów, używając do tego biblioteki do obliczeń naukowych 
 
 \href{'http://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html'}{scipy.optimize}
+
+
+$y = a e^{-bx} + c$
+
+$a = 115.42$
+
+$b = 0.76$
+
+$c = -4.27 $
+
+
+
+
+
+
+Macierz kowariancji otrzymanych współczynników:
+
+\begin{center}
+
+    \begin{tabular}{ | m{5cm}| m{5cm} | m{5cm} |} \hline
+    
+    
+    1.46e+01  &   7.76e-03 & -4.45e+00 \\ \hline
+
+ 	7.76e-03  & 3.69e-03  & 1.29e-01 \\ \hline
+    
+    -4.45e+00 &  1.28e-01 &  7.23e+00 \\ \hline
+    \end{tabular}
+\end{center}
+
 
 niestety wyliczone przez nas $\chi^2$ zredukowane miało wartość ok. 3000. Analizując nasze pomiary i wyniki, doszliśmy do wniosku, że tak wysoką wartość $\chi^2$ uzyskaliśmy przez zaniżenie niepewności pomiarowych w naszym doświadczeniu.
 
 
 
+\section{Wnioski}
 
 
 
