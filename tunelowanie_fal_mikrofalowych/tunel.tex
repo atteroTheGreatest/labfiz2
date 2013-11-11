@@ -83,7 +83,7 @@ Celem ćwiczenia było zbadanie zjawiska tunelowania dla fal elektromagnetycznyc
 
 \section{Wstęp}
 
-Fala elektromagnetyczna ulega zjawisku całkowitego wewnętrznego odbcia - zależność $\frac{n_1}{n_2}\cdot \sin \theta_gr = 1 $. Zanikanie wiązki światła na granicy dwóch ośrodków, nie oznacza że pole elektryczne i magnetyczne fali elektromagnetycznej zanika w sposób skokowy na granicy dwuch ośrodków. Te pola wnikają na pewną głębokość do obszary, w którym fala elektromagnetyczna się nie propaguje. 
+Fala elektromagnetyczna ulega zjawisku całkowitego wewnętrznego odbcia - zależność $\frac{n_1}{n_2}\cdot \sin \theta_gr = 1 $. Zanikanie wiązki światła na granicy dwóch ośrodków, nie oznacza że pole elektryczne i magnetyczne fali elektromagnetycznej zanika w sposób skokowy na granicy dwóch ośrodków. Te pola wnikają na pewną głębokość do obszary, w którym fala elektromagnetyczna się nie propaguje. 
 %u są wzory których nie rozumiem więc ich nie zżynam 
 Jeśli jednak grubość warstwy w której pole zanika jest mała, a za nią znajduje się obszar, w którym fala elektromagnetyczna może się rozprzestrzeniać, to jej część przejdzie do tego obszaru, co określamy jako \textbf{efekt tunelowy}.
 
@@ -94,7 +94,7 @@ Aby sprawdzić powyższą hiptezę używaliśmy testu $\chi^2$ zgodnie z poniżs
 $$
 \chi^2 = \Sigma_{i=1}^n {\left( \frac{y_i - f(x_i)}{\sigma_i} \right)}^2
 $$
-Gdzie $y_i$ to nasze wybiki, zaś $f(x_i)$ to wyniki pochodzące z dopasowanej prostej. $\sigma_i$ to niepewności pomiarów. 
+Gdzie $y_i$ to nasze wyniki, zaś $f(x_i)$ to wyniki pochodzące z dopasowanej prostej. $\sigma_i$ to niepewności pomiarów. 
 $\chi^2$ po zsumoawniu odpowiada na pytanie czy hipoteza, jaką stawiamy jest prawdziwa: 
 \begin{itemize}
   \item $\chi^2 \gg 1$ - hipoteza przez nas postawiona jest fałszywa 
@@ -117,6 +117,52 @@ Do przeprowadzenia eksperymenty używaliśmy:
 
 
 \section{Opracowanie wyników}
+
+Wyniki pomiarów przedstawiamy poniżej w tabelce:
+
+Pomiary odbitej wiązki:
+
+\begin{tabular}{ l | c | r }
+  		x [cm] & V [mV] & zakres [mV] \\
+  		\hline
+		18&127&150 \\
+		16.5&123&150 \\
+		15&119&150 \\
+		13&115&150 \\
+		12.2&105&150 \\
+		11.8&95&150 \\
+		11.3&80&150 \\
+		11&63&150 \\
+		10.8&42&150 \\
+		10.5&23&50 \\
+		10.3&15&50 \\
+		9.9&3.3&5 \\
+
+
+\end{tabular}
+
+Pomiary wiązki, która przetunelowała:
+
+\begin{tabular}{ l | c | r }
+
+	x [cm] & V [mV] & zakres [mV] \\
+	\hline
+	10.3&105&150 \\
+	10.7&87&150 \\
+	11&71&150 \\
+	11.2&55&150 \\
+	11.4&46&150 \\
+	11.6&36&50 \\
+	12&25&50 \\
+	12.3&19&50 \\
+	12.8&9&50 \\
+	13.4&4.5&15 \\
+	13.8&3.3&5 \\
+	14.5&1.7&5 \\
+	15&0.9&1.5 \\
+	16.4&0.5&1.5 \\
+
+\end{tabular}
 
 $$
 E = E_0cos(wt-k_{II}y)e^{-\gamma x} \\
