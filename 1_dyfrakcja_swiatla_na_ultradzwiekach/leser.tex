@@ -150,6 +150,21 @@ Podstawowa zależność dla prędkości fali wynosi:
 
 $$v = \frac{\omega}{k} = \frac{2\cdot \pi \cdot f }{\frac{2\cdot \pi}{\Lambda} }= \Lambda \cdot f $$
 
+Zgodnie na tak niskim zakresie fal ultradźwiękowych spodziewaliśmy się krzywej dyspersji przypominającą linię prostą. Dla tego też wyznaczone długości fali z danych tablicowych uważamy za wzorcowe. 
+
+
+
+Aby sprawdzić powyższą hiptezę używaliśmy testu $\chi^2$ zgodnie z poniższym wzorem. 
+$$
+\chi^2 = \Sigma_{i=1}^n {\left( \frac{y_i - f(x_i)}{\sigma_i} \right)}^2
+$$
+Gdzie $y_i$ to nasze wybiki, zaś $f(x_i)$ to wyniki pochodzące z dopasowanej prostej. $\sigma_i$ to niepewności pomiarów. 
+$\chi^2$ po zsumoawniu odpowiada na pytanie czy hipoteza, jaką stawiamy jest prawdziwa: 
+\begin{itemize}
+  \item $\chi^2 \gg 1$ - hipoteza przez nas postawiona jest fałszywa 
+  \item $\chi^2 \approx 1$ - hipoteza jest zgodna z doświadczeniem
+\end{itemize}
+
 
 \section{Użyty sprzęt i układy pomiarowe}
 
@@ -295,6 +310,7 @@ Wyliczyliśmy, że prędkość fali dźwiękowej w wodzie jest stała niezależn
   
  \begin{itemize}
    \item prędkość dźwięku w wodzie: $ 1482 m/s$ \\ http://fatcat.ftj.agh.edu.pl/~kaprzyk/Fizyka/fizyka/node102.html
+   \item A SIMPLE AND ACCURATE FORMULA FOR THE SOUND VELOCITY IN WATER	J. Lubbers, R. Graaff, University of Groningen
    
  \end{itemize}
 
