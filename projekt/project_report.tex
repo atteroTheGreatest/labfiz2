@@ -65,7 +65,7 @@
 \fancyfoot[CO]{\ }
 \fancyhead[RO]{\footnotesize{\thepage} }
 %\fancyhead[RO]{\footnotesize{\ } }
-\fancyhead[LO]{Justyna Ilczuk i Jacek Rosiński K-1, Zjawisko tunelowe dla fal elektromagnetycznych }
+\fancyhead[LO]{Justyna Ilczuk i Jacek Rosiński K-1, Ogniwo DMFC }
 
 % wrzucanie wykresów:
 
@@ -79,13 +79,13 @@
 
 \section{Cel ćwiczenia}
 
-Celem naszego ćwiczenia projektowego było naprawienie ogniwa metanolowego. Ogniwo, które otrzymaliśmy miało bardzo niską sprawność i można było z niego pobierać moc rzędu wielkości mikro Watów.
+Celem naszego ćwiczenia projektowego było naprawienie ogniwa metanolowego. Ogniwo, które otrzymaliśmy miało bardzo niską sprawność i można było z niego pobierać moc rzędu wielkości mikro watów.
 
 
 
 \section{Wstęp}
 
-Ogniwo z jakim mieliśmy do czynienia nazywa się Direct Methanol Fuel Cell - paliwem w nim jest metanol.
+Ogniwo z jakim mieliśmy do czynienia nazywa się Direct Methanol Fuel Cell - paliwem w nim jest 3$\%$ roztwór metanolu.
 
 Podstawowym wyznacznikiem naprawienia ogniwa, było to, żeby mogło zasilać dołączony do niego wiatraczek.
 
@@ -99,40 +99,63 @@ Ważnymi parametrami ogniwa są:
 
 W naszym ćwiczeniu używaliśmy:
 \begin{itemize}
-\item komputera
+\item komputera i automatycznego miernika napięcia
 \item metanolu i kwasu siarkowego VI
 \item mierników uniwersalnych
 \item oporników dekadowych
-\item wagi precyzyjnej
+\item wagi precyzyjnej (która podczas trwania badań przestała jednak działać)
 \end{itemize}
 
-\section{Przebieg ćwiczenia}
+\section{Przebieg ćwiczenia i opracowanie wyników}
 
-Na początku zmierzyliśmy charakterystyki ogniwa dla róznych zawartości metanolu w paliwie:
+%Na początku zmierzyliśmy charakterystyki ogniwa dla róznych zawartości metanolu w paliwie:
 
-Tu wrzucimy wykresy z pierwszego sheet'a w gnumericu expotent
+
+%Tu wrzucimy wykresy z pierwszego sheet'a w gnumericu expotent
 
 By zwiększyć wydajność ogniwa wykonaliśmy na nim różne zabiegi:
 \begin{itemize}
 \item zwilżanie membrany (nafionowej)
+\item przemywanie membrany pod strumieniem wody
 \item ogrzewanie
 \item kolejne cykle z nowym paliwem
 \item "kąpiel" w rozcięczonym kwasie siarkowym VI
 \end{itemize}
 
-Zwilżanie membrany polepsza parametry ogniwa. Musi być jednak wykonane w odpowiedni sposób. Najlepszym ze sprawdzonych przez nas sposobów było 'chuchanie'.
+Zwilżanie membrany polepsza parametry ogniwa. Musi być jednak wykonane w odpowiedni sposób. Najlepszym ze sprawdzonych przez nas sposobów było zmoczenie bezpośrednie membrany poprzez naniesienie kilku kropel wody i odczekanie kilku chwil.
 
-Największy jednak wpływ na parametry ogniwa miały kolejne cykle z nowym paliwem. Każde kolejne badanie charakterystyk pokazywało, że wydajność wzrasta.
+Największy wpływ na parametry ogniwa miały kolejne cykle pracy. Każde kolejne badanie charakterystyk pokazywało, że wydajność wzrasta, a poór wewnętrzny spada. Sugeruje to, że membrana nafionowa poprzez pozostawanie przez długi okres czasu nienawilżana, po woli traciła zdolność do przepuszczania jonów $H^+$. Jako że Nafion jest materiałem polarnym, mógł się 'zapchać' drobinkami kurzu, który blokował dopływ metanolu.
 
-Bardzo dobry skutek na ogniwo wywarła "kąpiel" w rozcięczonym kwasie siarkowym VI.
+Bardzo dobry skutek na ogniwo wywarła "kąpiel" w rozcięczonym ($1\%$) kwasie siarkowym (VI) ($ H_2SO_4 $).
+
+Przed przeprowadzeniem szeregu zabiegów moc uzyskiwana przez ogniwo w zależności od natężenia prądu przedstawiała się następująco
+
+
 
 Tu przedstawiamy charakterystyki ogniw po naszych zabiegach:
 
-Kolejne obrazki z gnumerica...
+\begin{figure} [H]
+ \begin{center}
+    \includegraphics[width = 15cm]{przed.png}
+   % \caption{Charakterystyka dla 3$\%$ roztworu metanolu i }
+  \end{center}
+\end{figure}
+Niepokojący był fakt, że moc uzyskana dla roztworu o słabszym stężeniu paliwa miał większą wydajność. Jak się okazało, to ogniwo, dzięki kolejnym cyklom pracy, funkcjonowało coraz lepiej. Jednak nie było zdolne do zasilenia wiatraczka. Opór wewnętrzny okniwa wynosił $80 \Omega $
+
+
+Próbowaliśmy na kilka sposobów polepszyć nasze statystyki. Najlepszym sposobem na to okazało się całonocne moczenie membrany z roztworek bardzo katywnego chemicznie $ H_2SO_4 $. 
+
+Charakterystyki wówczas lekko się zmieniły. Opór wewnętrzny zmalał do $30 \Omega $ zaś wykres mocy w zależności od natężenia znacząco zmieniły. Wartości mocy wzrosły czterokrotnie. 
+\begin{figure} [H]
+ \begin{center}
+    \includegraphics[width = 15cm]{po.png}
+   % \caption{Charakterystyka dla 3$\%$ roztworu metanolu i }
+  \end{center}
+\end{figure}
 
 Interesowały nas także charakterystyki zużycia paliwa i napięcia od czasu.
 
-Zmierzyliśmy takie charakterystyki dla trzech wartości zawartości paliwa: $3\%$, $2\%$, i $1\%$
+Zmierzyliśmy takie charakterystyki dla trzech wartości zawartości paliwa: $3\%$, $2\%$, i $1\%$ na oporze $30 \Omega $, ponieważ to był opór, dla jakiego ogniwo uzyskiwało największą moc. 
 
 \begin{figure} [H]
  \begin{center}
@@ -141,11 +164,13 @@ Zmierzyliśmy takie charakterystyki dla trzech wartości zawartości paliwa: $3\
   \end{center}
 \end{figure}
 
+Widzimy, że dla paliwa z $3\%$ roztworem metanolu napięcie utrzymywane przez ogniwo było stałe przez 4 godziny. Następnie zaczęło spadać. Dla $2\%$ roztworu metanolu proces obniżania się napięcia występował od razu po podłączeniu do układu pomiarowego, stąd wniosek, że przy pomiarze charakterystyki $3\%$ stałe napięcie utrzymuje się dopóki stężenie metanolu jest większe niż $2\%$. Po przekroczeniu tej wartości metanol nie nadąża dyfundować do membrany, w ilości zapewniającej działanie ogniwa na pełnej mocy, zaś paliwo dalej się zużywa, aż do całkowitego wykończenia. Pomiar $1\%$ roztworu miał wiele zakłóceń, i jego wykres znacząco odbiga od innych. Może być to związane z większą ilością wody w próbce, przez co metanol miał trudniejszą drogę do pokonania. Zmniejszyło to nachylenie krzywej na wykresie. Końcówka wykresu jest całkiem inna od pozostałych. Ponieważ pomiar trwał  kilka godzin, poderzewamy, że ktoś przewrócił ogniwo i wyciekło z niego paliwo.
 
-\section{Opracowanie wyników}
+Niestety 
+
 
 
 \section{Wnioski}
-Udało nam się przywrócić ogniwo do pełnej sprawności i dobrze je zcharakteryzować.
+Udało nam się doprowadzić ogniwo do stanu w którym może napędzać wiatraczek. Dobrym roztworem czyszczącym jest rozcieńczony kwas siarkowy.
 
 \end{document}
