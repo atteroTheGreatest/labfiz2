@@ -38,7 +38,7 @@
     Data wykonania ćwiczenia:
     \end{center}
     \begin{center}
-      12.2013 
+      16.10.2013 
     \end{center}
     \begin{center}
     Środa 9.45-13.45
@@ -54,7 +54,7 @@
    	\hline
     Wydział Fizyki & Grupa: K-1 \newline Rok akademicki: 2013/2014 &  \\
    	\hline
-   	\multicolumn{2}{|l|}{Prowadzący: Aleksander Urbaniak} & \multicolumn{1}{|l|}{Ocena końcowa:}\\
+   	\multicolumn{2}{|l|}{Prowadzący: Michał Marzanotowicz} & \multicolumn{1}{|l|}{Ocena końcowa:}\\
     \hline
     \end{tabular}
 \end{center}
@@ -78,10 +78,10 @@
 
 
 \section{Cel ćwiczenia}
-Celem laboratorium było zaznajomienie się z podstawowymi medodami służącymi do badania próbek ogniw słonecznych.
+Pomierzyć sobie próbki i zobaczyć i zrozumieć co tam się fajnego w środku dzieje.
 
 \section{Przebieg laboratoriów}
-Badaliśmy różne próbki materiałów półrzewodnikowych na złączach p-n. W tym celu mierzyliśmy jasne i ciemne charakterystyki diod w zależności od temperatury i oświetlenia. Badaliśmy także szerokość przerwy energetycznej, pojemność i ilość nośników prądu. 
+Czyli co badaliśmy na których i co nam się udało i jakie mieliśmy problemy.
 
 
 \section{Wyniki pomiarów}
@@ -89,13 +89,13 @@ Badaliśmy różne próbki materiałów półrzewodnikowych na złączach p-n. W
 Dla jednej próbki mierzyliśmy charakterystyki jasne i ciemne.
 Dla drugiej próbki mierzyliśmy tylko charakterystyki jasne.
 
-A dla trzeciej próbki liczylismy koncentrację nośników.
+A dla trzeciej próbki liczylismy koncentrację nośników (dziur chyba?).
 
 Poniżej przedstawiamy wykresy charakterystyk diod w zależnosci od temperatury dla dwóch badanych próbek.
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics[width = 16cm]{probka1_temperatura.png}
+    \includegraphics[width = 15cm]{probka1_temperatura.png}
     \caption{Próbka 1 - charakterystyki dla różnych temperatur}
   \end{center}
 \end{figure}
@@ -106,19 +106,12 @@ Poniżej przedstawiamy wykresy charakterystyk diod w zależnosci od temperatury 
     \caption{Próbka 2 - charakterystyki dla różnych temperatur}
   \end{center}
 \end{figure}
-Jak można zauważyć do pomiaru wkradły się pewne zakłócenia, które nie  pasują do pozostałych charakterystuk. Można również zauważyć zmienijące się nachylenie charakterystyki w wysokich temperaturach.
 
-\begin{figure} [H]
-  \begin{center}
-    \includegraphics[width = 16cm]{porownania_probek.png}
-    \caption{Porównanie dla wybranch temperatur}
-  \end{center}
-\end{figure}
 
 Dalej przedstawiamy wykresy dla różnych wartości natężeń światła.
 \begin{figure} [H]
   \begin{center}
-    \includegraphics[width = 13cm]{probka1_swiatlo.png}
+    \includegraphics[width = 15cm]{probka1_swiatlo.png}
     \caption{Próbka 1 - charakterystyki dla różnych natężeń światła}
   \end{center}
 \end{figure}
@@ -130,20 +123,50 @@ Dalej przedstawiamy wykresy dla różnych wartości natężeń światła.
   \end{center}
 \end{figure}
 
-Dalej przedstawiamy na zbioryczych wykresach kilka parametrów naszych próbek (od lewej: FF(T), $V_{oc}(T) $, $\eta (T) $).
+Dalej przedstawiamy na zbioryczych wykresach kilka parametrów naszych próbek:
 
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 15cm]{probka1_rozne.png}
-    \caption{Próbka 1}
+    \caption{Parametry próbki 1}
   \end{center}
 \end{figure}
 
+\begin{tabular}{lrrrrrr}
+
+{} &          pmax &        ff &        eta &  V\_oc &  temp &  intensity \\
+
+1   &  3.876000e-03 &  0.559204 &  17.889368 &  0.92 &   101 &        100 \\
+12  &  3.940720e-03 &  0.573799 &  18.188078 &  0.91 &   112 &        100 \\
+23  &  3.985980e-03 &  0.586372 &  18.396972 &  0.90 &   121 &        100 \\
+34  &  4.012640e-03 &  0.596452 &  18.520019 &  0.89 &   131 &        100 \\
+45  &  4.020080e-03 &  0.603869 &  18.554358 &  0.88 &   142 &        100 \\
+56  &  4.027520e-03 &  0.611456 &  18.588697 &  0.87 &   152 &        100 \\
+67  &  4.023800e-03 &  0.625265 &  18.571527 &  0.85 &   162 &        100 \\
+78  &  4.008920e-03 &  0.636954 &  18.502850 &  0.83 &   171 &        100 \\
+89  &  3.982200e-03 &  0.640425 &  18.379526 &  0.82 &   181 &        100 \\
+100 &  3.938400e-03 &  0.648190 &  18.177371 &  0.80 &   191 &        100 \\
+111 &  3.861000e-03 &  0.643495 &  17.820137 &  0.79 &   201 &        100 \\
+122 &  3.760720e-03 &  0.643061 &  17.357303 &  0.77 &   211 &        100 \\
+133 &  3.603600e-03 &  0.632627 &  16.632128 &  0.75 &   221 &        100 \\
+144 &  3.498120e-03 &  0.630934 &  16.145293 &  0.73 &   229 &        100 \\
+155 &  3.368560e-03 &  0.624188 &  15.547320 &  0.71 &   239 &        100 \\
+166 &  3.217500e-03 &  0.613962 &  14.850114 &  0.69 &   249 &        100 \\
+177 &  3.068640e-03 &  0.603036 &  14.163063 &  0.67 &   259 &        100 \\
+188 &  2.906740e-03 &  0.589728 &  13.415826 &  0.65 &   269 &        100 \\
+199 &  2.564520e-03 &  0.539375 &  11.836337 &  0.63 &   279 &        100 \\
+210 &  2.281200e-03 &  0.498756 &  10.528696 &  0.61 &   289 &        100 \\
+221 &  2.037600e-03 &  0.464001 &   9.404380 &  0.59 &   299 &        100 \\
+232 &  2.041179e-08 &  0.201465 &   0.000094 &  0.50 &   309 &        100 \\
+243 &  9.407765e-09 &  0.201282 &   0.000043 &  0.39 &   319 &        100 \\
+254 &  3.766200e-03 &  0.537949 &  17.382595 &  0.93 &    89 &        100 \\
+
+\end{tabular}
 
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 15cm]{probka2_rozne.png}
-    \caption{Próbka 2}
+    \caption{Parametry próbki 2}
   \end{center}
 \end{figure}
 
@@ -156,15 +179,12 @@ Dalej porównujemy poszczególne parametry pomiędzy próbkami:
   \end{center}
 \end{figure}
 
-Można zauważyć że współczynnik wypełnienia próbki 1 ma większe wartości dla większości temperatur. Jest on także bardziej stabilny, podczas, gdy FF próbki drugiej są bardziej zmienne wraz z tepmeraturą. 
-
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 15cm]{probki_porownanie_eta.png}
     \caption{Porównanie $\eta$}
   \end{center}
 \end{figure}
-Sprawność próbki drugiej jest zdecydowanie większa niż próbki pierwszej, co czyni ją lepszym ogniwem słonecznym. Są to jednak wielkości rzedu $18 \% $, a nie jest to za wiele. 
 
 \begin{figure} [H]
   \begin{center}
@@ -200,10 +220,11 @@ Dla drugiej próbki:
 
 $$\Phi_b = 1.20$$
 
+I to tyle jeśli chodzi o wykresy dla jasnych charakterystyk.
+
 Dla pierwszej próbki zbadaliśmy ciemne charakterystyki.
 
-Wykreśliliśmy wykres: 
-
+Oto co zaobserwowaliśmy:
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 15cm]{A_T.png}
@@ -213,9 +234,7 @@ Wykreśliliśmy wykres:
 
 Przekształcając zależność:
 
-$$ J_o = J_{oo}e^{-\frac{\Phi_b}{AkT}}$$
-Otrzymujemy:
-$$ AkT \left( \ln{(\frac{J_o}{J_{oo}})} \right) =-\Phi_b  $$ 
+tu wzorek z Joo i A. Otrzymujemy:
 
 W ten sposób wyznaczamy $\Phi_b$ dla pierwszej próbki.
 
@@ -225,38 +244,12 @@ $$\Phi_b = 1.16$$
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 15cm]{A_lnI.png}
-    \caption{$A ln(I_o)$}
+    \caption{A ln(I)}
   \end{center}
 \end{figure}
-
-Badaliśmy również pojemność elektryczną próbek. Przedsawiono to na poniższym wykresie: 
-
-\begin{figure} [H]
-  \begin{center}
-    \includegraphics[width = 15cm]{cuski.png}
-    \caption{$c(f)$}
-  \end{center}
-\end{figure}
-Możemy zauważyc, że wraz z temperaturą krzywe przemieszczają się w prawą stronę.
-
-
-Pomiar pojemności od częstotliwości pozwolił nam na wybranie odpowiednich częstotliwości do pomiaru ilości nośników prądu. Wybrane częstotliwości odpowiadały dwóm charakterystycznym poziomom na wykresach pojemności od częstotliwości. Częstotliwości wybrane to 1kHz i 200kHz. Przedstawiamy wykres nośinków: 
-
-
-\begin{figure} [H]
-  \begin{center}
-    \includegraphics[width = 15cm]{cycki.png}
-    \caption{Nośniki prądu w próbce}
-  \end{center}
-\end{figure}
-
-Na wykresie widać dwa charakterystyczne minima. Na ich podstawie wyznaczamy: 
-
-$$N_T = 1.72 \cdot 10^{15} $$
-$$ \Delta x = 0.1 \mu m $$
+\section{Wstęp}
 
 \section{Wnioski}
-Dzięku laboratorium dowiedzieliśmy się jak charakteryzować diody. Okazało się, że zmierzone przez nas charakterystyki i parametry nie były idealne w porónaniu z tymi przedstawionymi w zaproponowanej literaturze. Wartości $\Phi_b$ wyznaczone różnymi metodami są podobne. 
 
 
 \end{document}
